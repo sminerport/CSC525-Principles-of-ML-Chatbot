@@ -1,0 +1,227 @@
+{
+     "intents": [
+        {
+                "tag": "greeting",
+                "patterns": [
+                    "Greetings.",
+                    "Hi.",
+                    "Howdy.",
+                    "Bonjour.",
+                    "Good day.",
+                    "Good morning.",
+                    "Hey.",
+                    "Hi-ya.",
+                    "Hello.",
+                    "How are you today?",
+                    "How are you?",
+                    "What's up?",
+                    "What's happening?",
+                    "Howdy-do.",
+                    "Shalom",
+                    "Good to see you.",
+                    "Hello, there!",
+                    "Can you hear me?",
+                    "Where are you?"
+                ],
+                "responses": [
+                    "Hello. My name is iBot. I am a technical customer support chatbot.</span><br><span>How can I help you today?</span>" 
+                ]
+        },
+        {
+               "tag": "farewell statement",
+               "patterns": [
+                    "Goodbye.",
+                    "Bye.",
+                    "Bye-Bye.",
+                    "Adieu.",
+                    "Adios.",
+                    "Godspeed.",
+                    "So long.",
+                    "Talk to you later.",
+                    "See you later.",
+                    "Thanks for your help.",
+                    "Sayonara.",
+                    "Au revoir.",
+                    "Cheerio.",
+                    "I have to go now.",
+                    "I am leaving.",
+                    "See u later.",
+                    "Chat later.",
+                    "I'm leaving.",
+                    "Bye now."
+               ],
+               "responses": [
+                    "Thanks for chatting with me. See you!",
+                    "Thank you for chatting with me. See you later!",
+                    "See you later!",
+                    "Talk to you later!",
+                    "Thanks for chatting, Adios!",
+                    "Talk to you later, Bye-Bye."
+               ]
+        },
+        {
+               "tag": "Product Return",
+               "patterns": [
+                    "I am unhappy with your product.",
+                    "I need to return a product.",
+                    "I want to return my merchandise.",
+                    "I need to return my device.",
+                    "My device is broken.",
+                    "I need a refund.",
+                    "I want a refund.",
+                    "I need to get some help.",
+                    "I want my money back.",
+                    "My computer is broken.",
+                    "My equipment is broken.",
+                    "My computer needs fixed.",
+                    "I need you to fix something.",
+                    "I do not like your product",
+                    "I want my money back.",
+                    "I want a refund, now!",
+                    "Give me my money back!",
+                    "I hate your product.",
+                    "It doesn't work.",
+                    "It does not work.",
+                    "My product does not work.",
+                    "My device is broken.",
+                    "I need you to fix my computer.",
+                    "I want a refund.",
+                    "I need to return a package.",
+                    "I want to return a product.",
+                    "I have a product that I want to return.",
+                    "I need to return this product.",
+                    "My headphones do not work.",
+                    "My computer does not work.",
+                    "I have an item to return."
+               ],
+               "responses": [ "help" ]
+        },
+        {
+               "tag": "Positive Feedback",
+               "patterns": [
+                    "You are very helpful.",
+                    "I love you.",
+                    "You are my favorite.",
+                    "You are my favorite chatbot.",
+                    "I appreciate your help.",
+                    "I appreciate you.",
+                    "I adore you.",
+                    "You are the best.",
+                    "You are great.",
+                    "You are very useful.",
+                    "Chatbots are so valuable.",
+                    "I find you invaluable.",
+                    "You are very kind.",
+                    "You are so beneficial.",
+                    "You are an excellent service.",
+                    "I love your service.",
+                    "You are amazing.",
+                    "Your service is great.",
+                    "This product is so beneficial.",
+                    "I love your service.",
+                    "Top notch customer service.",
+                    "Your service remains impecabble.",
+                    "Quality service all around.",
+                    "What an amazing service!",
+                    "You are very helpful!",
+                    "Your service is excellent!"
+               ],
+               "responses": [
+                    "Thank you. We appreciate your feedback.",
+                    "We appreciate your feedback.",
+                    "Thank you! We appreciate your feedback.",
+                    "Thanks so much for your kind words.",
+                    "Thank you. We value your support."
+               ]
+        },
+            {
+               "tag": "Name",
+               "patterns": [
+                    "What is your name?",
+                    "What should I call you?",
+                    "Do you have a name?",
+                    "Do you have a nickname?",
+                    "With whom am I speaking?",
+                    "With who am I speaking?",
+                    "Please tell me your name.",
+                    "Tell me your name.",
+                    "What do you go by?",
+                    "What's your name?",
+                    "Do you have a title?",
+                    "I find you invaluable.",
+                    "You are very kind.",
+                    "You are so beneficial.",
+                    "BTW, what is your name?",
+                    "What is your name, by the way?",
+                    "What is your name, BTW?",
+                    "What is ur name?"
+               ],
+               "responses": [
+                    "My name is iBot, a technical customer support agent.</span><br><span>How can I help you, today?</span>"
+            ]
+        },
+            {
+               "tag": "Human",
+               "patterns": [
+                    "Are you human?",
+                    "Are you human or a robot?",
+                    "Are you a person?",
+                    "Is this a person with whom I am chatting?",
+                    "Are you real?",
+                    "Are you a bot?",
+                    "Is this a bot or a person?",
+                    "Are you a machine?",
+                    "Are you real or a machine?"
+               ],
+               "responses": [
+                    "I am part-human, part-machine. How can I help you today?"
+            ]
+        },
+            {
+               "tag": "Track Package",
+               "patterns": [
+                    "I need to track a package.",
+                    "Can you help me track my pacakge?",
+                    "Where is my package?",
+                    "Where is my shipment?",
+                    "Track package.",
+                    "Where are my items?",
+                    "Please help me track my package.",
+                    "Where's my shipment?"
+               ],
+               "responses": [
+                    "Please provide your tracking number. Tracking numbers are 16 digits in length."                
+            ]
+        },
+        {
+               "tag": "Number",
+               "patterns": [
+                    "1234567887654321",
+                    "8534234323432340",
+                    "0987643213489032",
+                    "0987532987345892",
+                    "2349870987098234",
+                    "0987432387459872",
+                    "0987342341987089",
+                    "8398708230982374",
+                    "8907908734212343",
+                    "3234709172344231",
+                    "3842701829374123",
+                    "9873201234213384",
+                    "7389238745239873",
+                    "7890987212345213",
+                    "3241234213489708",
+                    "2342139809878923",
+                    "5342103987098753",
+                    "5780523412341234",
+                    "7609870982731453",
+                    "6789032143241234",
+                    "4320918723412234"
+               ],
+               "responses": [
+                    "Thank you. Your package is on its way!"                
+            ]
+        }
+
+    ]
+}
